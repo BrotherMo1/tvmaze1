@@ -1,0 +1,72 @@
+{
+    "theme_color":"#a1a1a1",
+    "background_color":"#b1b3b4",
+
+    "screenshots": [
+    {
+      "src": "screenshots/homeScreen1280.png",
+      "sizes": "1280x918",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any"
+    },
+    {
+      "src": "screenshots/homeScreen720.png",
+      "sizes": "720x918",
+      "type": "image/png",
+      "purpose": "any"
+    }
+    ],
+    "icons":[
+       {
+          "purpose":"maskable",
+          "sizes":"512x512",
+          "src":"AppImages/icon512_maskable.png",
+          "type":"image/png"
+       },
+       {
+          "purpose":"any",
+          "sizes":"512x512",
+          "src":"AppImages/icon512_rounded.png",
+          "type":"image/png"
+       },
+       {
+        "purpose":"any",
+        "sizes":"192x192",
+        "src":"AppImages/android/an-tv-192.png",
+        "type":"image/png"
+     },
+     {
+        "purpose":"any",
+        "sizes":"144x144",
+        "src":"AppImages/android/an-tv-144.png",
+        "type":"image/png"
+     },
+     {
+        "purpose":"any",
+        "sizes":"96x96",
+        "src":"AppImages/android/an-tv-96.png",
+        "type":"image/png"
+     },
+     {
+        "purpose":"any",
+        "sizes":"72x72",
+        "src":"AppImages/android/an-tv-72.png",
+        "type":"image/png"
+     },
+     {
+        "purpose":"any",
+        "sizes":"48x48",
+        "src":"AppImages/android/an-tv-48.png",
+        "type":"image/png"
+     }
+    ],
+    "orientation":"portrait",
+    "start_url": "/",
+    "scope": "/",
+    "display":"standalone",
+    "dir":"auto",
+    "lang":"en-US",
+    "name":"TV Show Finder",
+    "short_name":"TV Maze"
+ }
