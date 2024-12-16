@@ -166,3 +166,15 @@ async function epInfo(id) {
       document.getElementById("message").innerHTML = "<p>Error trying to fetch episode info</p>";
   }// catch
 }// epInfo
+
+
+// sw
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      console.log('Service Worker registered with scope:', registration.scope);
+    }, function(error) {
+      console.log('Service Worker registration failed:', error);
+    });
+  });
+}  
