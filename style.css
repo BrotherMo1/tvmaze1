@@ -66,13 +66,6 @@ img{
   margin-right: auto;
 }
 
-/* .box
-{
-  margin: 20px;
-  border: solid 5px;
-  border-radius: 20px;
-  background-color: #f1f1f1;
-} */
 #lightbox {
   position:fixed;
   top:0px;
@@ -84,20 +77,13 @@ img{
 }
 
 
-/* .lightWords{grid-area: left;}
-#image{grid-area: right;} */
 
 #message {
   height: 55%;
-  /* display: grid;
-  grid-template-areas: 
-  'left right'; */
 
     width: 80%;
     padding:20px;
     background-color:#d9d8da;
-
-    /* Center the message in the lightbox */
     position: absolute;
     top: 50%;
     left: 50%;
