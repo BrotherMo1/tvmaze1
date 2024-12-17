@@ -9,6 +9,7 @@ const STATIC_ASSETS = [
   '/styles.css',
   '/app.js',
   '/favicon.ico',
+  'manifest.json'
   // Add other static files you want to cache
 ];
 
