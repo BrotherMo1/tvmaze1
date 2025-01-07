@@ -7,8 +7,7 @@ const STATIC_ASSETS = [
   '/', 
   'index.html',
   'style.css',
-  'script.js',
-  'manifest.json'
+  'script.js'
   // Add other static files you want to cache
 ];
 
